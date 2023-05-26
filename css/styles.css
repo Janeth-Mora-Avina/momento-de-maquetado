@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.index-container {
+    height: 94vh;
+}
+
+.profile-data {
+    height: 100%;
+}
+
+.profile-data .background-image {
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 200px;
+    height: 106vh;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-data img {
+    border-radius: 10% 0%;
+    max-width: 300px;
+    right: -130px;
+    position: relative;
+}
+
+.profile-data {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    margin-left: 200px;
+}
+
+h1, p, a, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+.text-container h1, .about-me-header h1 {
+    font-size: 48px;
+}
+
+.text-container p {
+    font-size: 30px;
+}
+
+.text-container button {
+    background: #f49b9b;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.text-container button a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-container button:hover {
+    background: #edb6b6;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-container i {
+    padding-left: 30px;
+}
+
+.about-me-header {
+    background-color: #edb6b6;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.about-me-header h1 {
+    color: #ffffff;
+    margin-left: 35px;
+}
+
+.text-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.profile {
+    margin: 50px 60px;
+}
+
+.about-me-main h2 {
+    font-size: 30px;
+}
+
+.about-me-main p {
+    font-size: 16px;
+}
+
+.contact, .education {
+    margin: 0px 60px 50px 60px;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+
+.education h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education .time {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.education .description {
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.education .education-container {
+    margin-bottom: 25px;
+}
